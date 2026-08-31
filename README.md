@@ -19,3 +19,15 @@ swiftc -O appshot.swift -o appshot
 ```sh
 ./appshot Chrome -o images/chrome.png
 ```
+
+### 開いているアプリのスクリーンショット（影なし）
+
+```sh
+./appshot Chrome -o images/chrome_no_shadow.png --no-shadow
+```
+
+### 開いているアプリの前面に表示させてスクリーンショット
+
+```sh
+./appshot Chrome -o images/chrome_activate.png --activate
+```
