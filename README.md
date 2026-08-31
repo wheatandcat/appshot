@@ -31,3 +31,9 @@ swiftc -O appshot.swift -o appshot
 ```sh
 ./appshot Chrome -o images/chrome_activate.png --activate
 ```
+
+### delayしてスクリーンショット
+
+```sh
+./appshot Chrome -o images/chrome_delay.png --delay 5
+```
